@@ -4,7 +4,7 @@ package pgrm;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class resulttest {
+public class resultTest {
 @Test
 public void testeven() {
 	Assert.assertEquals(result.display(20),"even");
