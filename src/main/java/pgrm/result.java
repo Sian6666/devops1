@@ -3,7 +3,7 @@ package pgrm;
 public class result {
 
 	public static String display(int n) {
-		if(n%2==1)
+		if(n%2==0)
 			return "even";
 		else 
 			return "odd";
