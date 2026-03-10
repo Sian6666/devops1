@@ -3,6 +3,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class resultTest {
+
 	@Test
 	public void testeven() {
 		Assert.assertEquals(result.display(20),"even");
@@ -15,6 +16,11 @@ public class resultTest {
 		
 	}
 
+
+
+
 }
+
+
 
 
